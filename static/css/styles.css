@@ -1,0 +1,120 @@
+html, body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 24px;
+  font-family: Helvetica;
+}
+
+.main_Section{
+    width: 1100px;
+
+    text-align: center;
+
+}
+
+.row {
+    margin-right: -16px;
+    margin-left: -10px;
+}
+
+.col-md-5{
+  padding: 5px;
+
+}
+
+.channels{
+  padding: 200px;
+  display: flex;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-around;
+}
+
+
+.content-channels{
+  padding: 1px;
+  margin: 10px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  justify-content: center;
+}
+
+.content-channel{
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: auto;
+  box-shadow: 0 0 2px 1px;
+  border-radius: 10px;
+}
+
+.content-channel + .content-channel {
+  margin-left: 2rem;
+}
+
+.content-image{
+  padding: 5px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+}
+
+.main-button{
+  background-color:#004e91;
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.main-button:hover{
+  background: #278615db;
+} */
+
+/* .channel{
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.channel .content-channel{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: 0 0 2px 1px;
+    border-radius: 5px;
+}
+
+.content-images{
+  padding: 5px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+}
+
+.content-image{
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+}
+
+.main-button{
+  background-color:#7ACC2D;
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.main-button:hover{
+  background: #278615db;
+} */
