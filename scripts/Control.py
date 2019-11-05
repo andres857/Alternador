@@ -15,14 +15,12 @@ cambiarCanal = 15
 GPIO.setup(cambiarCanal, GPIO.OUT, initial=GPIO.LOW)
 GPIO.setup(lecturaestadoWC, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
-#Programa
+#Simula el boton en el HDMI
 def alternateChannel():
     GPIO.output(cambiarCanal, GPIO.HIGH)
-    print ("alto.control")
     time.sleep(0.5)
     GPIO.output(cambiarCanal, GPIO.LOW)
     time.sleep(1.5)
-    print ("bajo.control")
 
 
 def statusPorts():

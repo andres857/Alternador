@@ -4,6 +4,7 @@ from flask import Flask, render_template, request
 from scripts import Control
 
 app = Flask(__name__)
+#app.config['SERVER_NAME']='alternador:80'
 
 @app.route("/")
 def index():
@@ -14,7 +15,6 @@ def index():
 def pagUne():
     statusWC,full_filename,templateData = Control.statusPorts()
     if statusWC==0:
-        # return render_template('Une.html',imagenesupo=full_filename, **templateData)
         pass
     else:
         Control.alternateChannel()
@@ -30,6 +30,11 @@ def pagImbanaco():
         Control.alternateChannel()
         statusWC,full_filename,templateData = Control.statusPorts()
     return render_template('ImbanacoTV.html ',imagenesupo=full_filename, **templateData)
+
+@app.route("/Dispositivos")
+def receptores():
+    return render_template('Dispositivos.html')
+
 
 
 
